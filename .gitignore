@@ -1,0 +1,47 @@
+# ── Credentials and secrets ───────────────────────────────────────────────────
+# .pypirc belongs in ~/.pypirc, never inside a project directory
+.pypirc
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.pfx
+secrets.*
+credentials.*
+config.local.*
+config.secret.*
+*.token
+
+# ── Python build artifacts ────────────────────────────────────────────────────
+dist/
+build/
+*.egg-info/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# ── Test and coverage ─────────────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# ── Type checking ─────────────────────────────────────────────────────────────
+.mypy_cache/
+.pytype/
+
+# ── macOS ─────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

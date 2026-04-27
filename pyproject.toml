@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "dpv-monopeak"
+version = "0.1.0"
+description = "Differential Pulse Voltammetry feature extraction assuming a single dominant Faradaic peak"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+
+[project.urls]
+Repository = "https://github.com/danvu772/dpv-monopeak"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/dpv_monopeak"]
