@@ -134,7 +134,7 @@ The trapezoidal integral of the baseline-corrected current over the voltage wind
 
 ### Width - Full width at half maximum
 
-The voltage span between the two points on the corrected peak where the current equals exactly half the peak height (V). For an ideal reversible one-electron process in DPV the theoretical FWHM is approximately 90 mV at room temperature. Broader peaks indicate slower electron transfer kinetics, a wide distribution of binding-site energies (common in molecularly imprinted electrodes), or instrument noise at low concentrations.
+The voltage span between the two points on the corrected peak where the current equals exactly half the peak height (V). 
 
 ### YOffset - Baseline at peak
 
