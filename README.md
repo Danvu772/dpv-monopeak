@@ -2,6 +2,8 @@
 
 Feature extraction for **Differential Pulse Voltammetry (DPV)** scans that contain a single dominant Faradaic peak.
 
+This project was created for the Ray Research Group at University of Hawaii at Manoa
+
 ```python
 from dpv_monopeak import compute_dpv, extract_dpv_features
 ```
